@@ -1,8 +1,11 @@
 {
-  "name": "npm-mcp-server",
+  "name": "@iflow-mcp/npm-mcp-server",
   "version": "1.0.0",
   "description": "Um servidor MCP para buscar informações de pacotes npm",
   "main": "dist/index.js",
+  "bin": {
+    "npm-mcp-server": "dist/index.js"
+  },
   "type": "module",
   "scripts": {
     "build": "tsc",
